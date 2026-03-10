@@ -1,0 +1,9 @@
+{
+  "name": "로센트 - 로스트아크 가격변동 알림",
+  "short_name": "로센트",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": []
+}
