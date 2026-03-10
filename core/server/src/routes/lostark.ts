@@ -1,8 +1,7 @@
-import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
-import { fetchAllAuctionItems, fetchAllMarketItems, fetchAllMarketPages } from 'utils/lostarkApi'
+import { fetchAllAuctionItems, fetchAllMarketItems } from 'utils/lostarkApi'
 import { TRACKED_ENGRAVINGS } from 'utils/lostarkApi.constant'
-import type { MarketItem } from 'utils/lostarkApi.types'
+import type { MarketItem } from '@locent/superarmor'
 
 const lostark = new Hono()
 

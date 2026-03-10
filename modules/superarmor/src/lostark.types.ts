@@ -34,8 +34,6 @@ export interface MarketResponse {
   Items: MarketItem[]
 }
 
-// ─── 경매장 API 응답 ───
-
 export interface AuctionInfo {
   StartPrice: number
   BuyPrice: number

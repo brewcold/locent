@@ -1,5 +1,5 @@
 import { AUCTION_QUERY, MARKET_QUERIES } from './lostarkApi.constant.js'
-import type { MarketQuery, AuctionQuery, MarketResponse, AuctionResponse, AuctionItem, MarketItem } from './lostarkApi.types.js'
+import type { MarketQuery, AuctionQuery, MarketResponse, AuctionResponse, AuctionItem, MarketItem } from '@locent/superarmor'
 
 const BASE_URL = 'https://developer-lostark.game.onstove.com'
 
