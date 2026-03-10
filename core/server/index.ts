@@ -1,5 +1,6 @@
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
+import lostark from 'routes/lostark'
 
 const app = new Hono()
 
@@ -11,4 +12,5 @@ serve({ fetch: app.fetch, port: 3100 }, info => {
   console.log(`Server running at http://localhost:${info.port}`)
 })
 
+app.route('/lostark', lostark)
 export default app
