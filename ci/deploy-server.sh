@@ -10,7 +10,7 @@ rsync -avz --delete \
   --exclude='dist' \
   --filter=':- .gitignore' \
   package.json pnpm-workspace.yaml pnpm-lock.yaml tsconfig.json \
-  server superarmor \
+  core modules \
   "$HOST:$REMOTE_DIR/"
 
 echo ">> Installing dependencies..."

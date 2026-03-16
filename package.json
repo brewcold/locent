@@ -8,7 +8,7 @@
     "dev:server": "pnpm -F @locent/server dev",
     "build": "pnpm -r build",
     "typecheck": "pnpm -r typecheck",
-    "deploy:server": "./_ci/deploy-server.sh"
+    "deploy:server": "./ci/deploy-server.sh"
   },
   "packageManager": "pnpm@10.28.0",
   "pnpm": {
