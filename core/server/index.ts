@@ -8,9 +8,10 @@ app.get('/', c => {
   return c.text(`${new Date().toLocaleString()}\n로센트 서버 상태 : 🟢`)
 })
 
+app.route('/lostark', lostark)
+
 serve({ fetch: app.fetch, port: 3100 }, info => {
   console.log(`Server running at http://localhost:${info.port}`)
 })
 
-app.route('/lostark', lostark)
 export default app
